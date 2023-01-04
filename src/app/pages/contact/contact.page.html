@@ -1,0 +1,78 @@
+<app-header></app-header>
+
+<ion-content>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>Contactanos</ion-card-header>
+
+      <ion-list>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Nombre de usuario
+          </ion-label>
+
+          <ion-input
+          placeholder="User"
+          >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Mail
+          </ion-label>
+
+          <ion-input
+          placeholder="email@email.com"
+          type="email"
+          >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Número de contacto
+          </ion-label>
+          <ion-input
+          placeholder="888-888-888"
+          type="tel"
+          >
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Origen de contacto
+          </ion-label>
+          <ion-select placeholder="Select">
+            <ion-select-option value="reclamos">Reclamos</ion-select-option>
+            <ion-select-option value="Felicitaciones">Felicitaciones</ion-select-option>
+            <ion-select-option value="Sugerencias">Sugerencias</ion-select-option>
+            <ion-select-option value="Otros">Otros</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+      </ion-list>
+
+      <ion-button
+      expand="block"
+      fill="solid"
+      color="success"
+      >
+        Enviar
+      </ion-button>
+
+    </ion-card>
+  </div>
+
+</ion-content>

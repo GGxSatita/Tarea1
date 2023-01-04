@@ -1,0 +1,68 @@
+<app-header></app-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Iniciar Sesión</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <img alt="" src="https://www.insak.com.co/aym_image/aym_ico/aym_ico_user.png">
+
+      <ion-list>
+
+        <ion-label>Ingresa tus credenciales</ion-label>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Usuario o correo
+        </ion-label>
+          <ion-input placeholder="xxxxxxxxxx"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label
+          position="stacked"
+          >
+          Contraseña
+          </ion-label>
+          <ion-input placeholder="******"></ion-input>
+        </ion-item>
+
+      </ion-list>
+
+    </ion-card-content>
+
+    <ion-button size="small"
+    expand="block"
+    color="success"
+    >
+    <ion-icon
+    name="person-circle-outline"
+    slot="end"
+    >
+    </ion-icon>
+
+    Iniciar sesión
+    </ion-button>
+    <br>
+
+    <ion-button
+    [routerLink]="['/registro']"
+    size="small"
+    expand="block"
+    color="success"
+    >
+    <ion-icon
+    name="person-add-outline"
+    slot="end"
+    >
+    </ion-icon>
+    Registrarse
+    </ion-button>
+  </ion-card>
+
+</ion-content>

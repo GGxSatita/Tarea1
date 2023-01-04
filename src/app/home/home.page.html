@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Menú
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Menú</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+
+    <ion-button
+    [routerLink]="['/inicio']"
+    color="success"
+    expand="block"
+    >
+    <ion-icon name="home-outline" slot="end"></ion-icon>
+    Inicio
+    </ion-button>
+
+    <br>
+
+    <ion-button
+    [routerLink]="['/login']"
+    color="success"
+    expand="block"
+    >
+    <ion-icon name="log-in-outline" slot="end"></ion-icon>
+    Login
+    </ion-button>
+
+    <br>
+
+    <ion-button
+    [routerLink]="['/registro']"
+    color="success"
+    expand="block"
+    >
+    <ion-icon name="person-add-outline" slot="end"></ion-icon>
+    Registro
+    </ion-button>
+
+    <br>
+
+    <ion-button
+    [routerLink]="['/about']"
+    color="success"
+    expand="block"
+    >
+    <ion-icon name="glasses-outline" slot="end"></ion-icon>
+    About
+    </ion-button>
+
+    <br>
+
+    <ion-button
+    [routerLink]="['/contact']"
+    color="success"
+    expand="block"
+    >
+    <ion-icon name="call-outline" slot="end"></ion-icon>
+    Contact
+    </ion-button>
+
+
+  </div>
+</ion-content>
