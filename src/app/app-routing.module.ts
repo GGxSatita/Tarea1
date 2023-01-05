@@ -31,6 +31,14 @@ const routes: Routes = [
     path: 'contact',
     loadChildren: () => import('./pages/contact/contact.module').then( m => m.ContactPageModule)
   },
+  {
+    path: 'test',
+    loadChildren: () => import('./pages/test-parametros/test-parametros.module').then( m => m.TestParametrosPageModule)
+  },
+  {
+    path: 'extras',
+    loadChildren: () => import('./pages/test-para-extras/test-para-extras.module').then( m => m.TestParaExtrasPageModule)
+  },
 ];
 
 @NgModule({

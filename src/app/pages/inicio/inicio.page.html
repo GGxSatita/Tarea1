@@ -3,14 +3,256 @@
 <ion-content>
 
   <ion-card>
-    <img src="https://media.tenor.com/A2cEwvcSDFUAAAAd/baile-del-troleo-troleo.gif" />
     <ion-card-header>
-      <ion-card-title>Trolleo</ion-card-title>
-    </ion-card-header>
+      <ion-card-title>
+        Auto 1
+      </ion-card-title>
 
-    <ion-card-content>
-      Haz sido troleado u n u
-    </ion-card-content>
+      <ion-card-content>
+        <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_720,h_720,c_pad/shop-us-prod/products/fccasjntwdtltb1rbuow_d760088d-dd81-4a2e-9517-d2ae8310ac0f.jpg?v=1665097884" alt="">
+        <ion-button
+        [routerLink]="['/test']"
+        [queryParams]="
+          {
+            id : 1,
+            nombre: 'Batiauto',
+            estado: 'nuevo',
+            foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_720,h_720,c_pad/shop-us-prod/products/fccasjntwdtltb1rbuow_d760088d-dd81-4a2e-9517-d2ae8310ac0f.jpg?v=1665097884'
+
+          }
+        "
+        >
+        <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+       ver
+        </ion-button>
+      </ion-card-content>
+    </ion-card-header>
   </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Auto 2
+      </ion-card-title>
+
+      <ion-card-content>
+        <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_720,h_720,c_pad/shop-us-prod/products/ieybauakgtgoelqc1i0m_bec9071b-5eb2-4bbc-b416-5cc84a2025d2.jpg?v=1663892932" alt="">
+        <ion-button
+        [routerLink]="['/test']"
+        [queryParams]="
+          {
+            id: 2,
+            nombre: 'Lamborghini',
+            estado: 'nuevo',
+            foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_720,h_720,c_pad/shop-us-prod/products/ieybauakgtgoelqc1i0m_bec9071b-5eb2-4bbc-b416-5cc84a2025d2.jpg?v=1663892932'
+
+          }
+        "
+        >
+        <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+        ver
+        </ion-button>
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Auto 3
+      </ion-card-title>
+
+      <ion-card-content>
+        <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/dgeouhdohgtorzov93me.jpg?v=1663888362" alt="">
+        <ion-button
+        [routerLink]="['/test']"
+        [queryParams]="
+          {
+            id: 3,
+            nombre: 'Mitsubishi ',
+            estado: 'usado',
+            foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/dgeouhdohgtorzov93me.jpg?v=1663888362'
+
+          }
+        "
+        >
+        <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+        ver
+        </ion-button>
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Auto 4
+      </ion-card-title>
+
+      <ion-card-content>
+        <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/lp52tk5blvxdms6hho4c_65dec2e8-d1e6-4861-8214-c84a25bedc3d.jpg?v=1663878798" alt="">
+        <ion-button
+        [routerLink]="['/test']"
+        [queryParams]="
+          {
+            id: 4,
+            nombre: 'Ford Mustang GT',
+            estado: 'usado',
+            foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/lp52tk5blvxdms6hho4c_65dec2e8-d1e6-4861-8214-c84a25bedc3d.jpg?v=1663878798'
+
+          }
+        "
+        >
+        <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+        ver
+        </ion-button>
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Auto 5
+      </ion-card-title>
+
+      <ion-card-content>
+        <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/egvpj8ovuaycgwjgxczt.jpg?v=1663861941" alt="">
+        <ion-button
+        [routerLink]="['/test']"
+        [queryParams]="
+          {
+            id: 5,
+            nombre: 'Porsched 911 GT3',
+            estado: 'nuevo',
+            foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/egvpj8ovuaycgwjgxczt.jpg?v=1663861941'
+
+          }
+        "
+        >
+        <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+        ver
+        </ion-button>
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>
+      Auto 6
+    </ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/y7qu15jil6dffzvqpqzu_d08b5b6e-db31-412a-b4c4-97924ef8432d.jpg?v=1663893636" alt="">
+    <ion-button
+    [routerLink]="['/extras']"
+    [state]="{
+      id : 6,
+      nombre : 'Corvette C-8',
+      estado : 'nuevo',
+      foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/y7qu15jil6dffzvqpqzu_d08b5b6e-db31-412a-b4c4-97924ef8432d.jpg?v=1663893636'
+    }"
+    >
+      <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+      Ver extra
+    </ion-button>
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>auto 7</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/it9stlpzdtuur1saeeha.jpg?v=1663885944" alt="">
+
+    <ion-button
+    [routerLink]="['/extras']"
+    [state]="{
+      id : 7,
+      nombre : 'Custom Volkswagen',
+      estado : 'usado',
+      foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/it9stlpzdtuur1saeeha.jpg?v=1663885944'
+    }"
+    >
+    <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+      Ver extras
+    </ion-button>
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>auto 8</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/gtudw9orjkhnxf5yfkrw.jpg?v=1663873303" alt="">
+
+    <ion-button
+    [routerLink]="['/extras']"
+    [state]="{
+      id : 8,
+      nombre : 'Deadpool Scooter',
+      estado : 'nuevo',
+      foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/gtudw9orjkhnxf5yfkrw.jpg?v=1663873303'
+    }"
+    >
+    <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+      Ver extras
+    </ion-button>
+  </ion-card-content>
+</ion-card>
+
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>auto 9</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/frp6lvpkbrsxo6i5mgzd.jpg?v=1663871102" alt="">
+
+    <ion-button
+    [routerLink]="['/extras']"
+    [state]="{
+      id : 9,
+      nombre : 'Toyota Supra',
+      estado : 'nuevo',
+      foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/frp6lvpkbrsxo6i5mgzd.jpg?v=1663871102'
+    }"
+    >
+    <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+      Ver extras
+    </ion-button>
+  </ion-card-content>
+</ion-card>
+
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>auto 10</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <img src="https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/n7bq82ohn4jt2lassbut.jpg?v=1663871635" alt="">
+
+    <ion-button
+    [routerLink]="['/extras']"
+    [state]="{
+      id : 10,
+      nombre : 'Toyota Supra',
+      estado : 'nuevo',
+      foto : 'https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_900,h_900,c_pad/shop-us-prod/products/n7bq82ohn4jt2lassbut.jpg?v=1663871635'
+    }"
+    >
+    <ion-icon name="car-sport-outline" [slot]="'start'"></ion-icon>
+      Ver extras
+    </ion-button>
+  </ion-card-content>
+</ion-card>
+
+
+
 
 </ion-content>
